@@ -11,11 +11,12 @@ Your code should be in a publicly accessible repository. Besides the application
 
 # Some guidelines:
 - make it beautiful :-) but don't create too much content, as it is more important to us how you used your skills "under the hood"
-- if possible, please write tests and validate your inputs (yes, seriously, it is important to us)
+- Responsive design? Yes, please!
+- If possible, please write tests and validate your inputs (yes, seriously, it is important to us)
 - Showcase your abilities, and use the task to demonstrate your idea of best practices, regarding coding style, project
  structure, frameworks, patterns, design, etc.
 - There is no right or wrong solution, as long as it is your solution.
-- if you only have time to do one thing please do it as good as you possible can. It is better to have an nice but incomplete solution rather than a mediocre "feature complete" one. We want to get a good impression of your abilities.
+- If you only have time to do one thing please do it as good as you possible can. It is better to have an nice but incomplete solution rather than a mediocre "feature complete" one. We want to get a good impression of your abilities.
 - Be prepared to describe your work in detail.
 
 # How long should this take?
