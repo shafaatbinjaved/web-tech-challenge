@@ -1,4 +1,4 @@
-Welcome to the Orderbird Tech Challenge :-). Thank you for considering joining our team. As for the tech challeng: we like you to setup and develop the following super small website.
+Welcome to the Orderbird Tech Challenge :-). Thank you for considering joining our team. As for the tech challenge: we like you to setup and develop the following super small website.
 
 # The Goal: get leads from potential customers
 We need a web page where potential new orderbird customers can leave their name, email and telephone number, this data will then be stored in a data base to get in touch with them later.
