@@ -19,22 +19,20 @@ Vagrant.configure("2") do |config|
     apt-get update
     apt-get -y upgrade
 
-    apt-get install -y apache2
+    apt-get install -y nginx
     if ! [ -L /var/www/html ]; then
       rm -rf /var/www/html
       ln -fs /vagrant/public /var/www/html
     fi
 
 
-    apt-get install -y php7.2 php7.2-common
-    apt-get install -y php7.2-curl php7.2-xml php7.2-zip php7.2-gd php7.2-mysql php7.2-mbstring
+    apt-get install -y php7.2-fpm php7.2 php7.2-common php7.2-curl php7.2-xml php7.2-zip php7.2-gd php7.2-mysql php7.2-mbstring
 
     debconf-set-selections <<< 'mysql-server mysql-server/root_password password root'
     debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password root'
     apt-get install -y mysql-server
     apt-get install -y php-mysql
 
-    apt-get install -y libapache2-mod-php
     apt-get install -y composer
 
    SHELL
