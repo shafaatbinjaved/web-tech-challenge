@@ -4,7 +4,7 @@
 Vagrant.configure("2") do |config|
 
   config.vm.box = "ubuntu/xenial64"
-
+  config.vm.network "forwarded_port", guest: 3306, host: 3306
   config.vm.network "private_network", ip: "192.168.33.61"
 
 
@@ -22,12 +22,12 @@ Vagrant.configure("2") do |config|
     apt-get install -y apache2
     if ! [ -L /var/www/html ]; then
       rm -rf /var/www/html
-      ln -fs /vagrant /var/www/html 
+      ln -fs /vagrant/public /var/www/html
     fi
 
 
-    apt-get install -y php7.1 php7.1-common
-    apt-get install -y php7.1-curl php7.1-xml php7.1-zip php7.1-gd php7.1-mysql php7.1-mbstring
+    apt-get install -y php7.2 php7.2-common
+    apt-get install -y php7.2-curl php7.2-xml php7.2-zip php7.2-gd php7.2-mysql php7.2-mbstring
 
     debconf-set-selections <<< 'mysql-server mysql-server/root_password password root'
     debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password root'
@@ -36,5 +36,6 @@ Vagrant.configure("2") do |config|
 
     apt-get install -y libapache2-mod-php
     apt-get install -y composer
+
    SHELL
 end

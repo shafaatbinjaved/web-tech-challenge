@@ -21,3 +21,14 @@ Your code should be in a publicly accessible repository. Besides the application
 
 # How long should this take?
 We know, doing some homework is rarely fun. So please try to keep it as short as possible. Two to three hours should get you to the point where you can demo it. If possible you can also
+
+
+
+
+
+# Notes
+- Vagrant runs an ubuntu machine on 192.168.33.61
+- MySqL User and Password are "root"
+- Maybe you have to GRANT ALL Priviliges to root
+- To enable mysql access from outside the vm you have to edit the /etc/mysql/mysql.conf.d/mysqld.cnf by commenting "bind adress" and "skip-external-locking" out and restart the mysql service
+You can connect then by host 192.168.33.61 root / root
