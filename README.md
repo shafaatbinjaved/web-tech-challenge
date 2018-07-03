@@ -23,9 +23,6 @@ Your code should be in a publicly accessible repository. Besides the application
 We know, doing some homework is rarely fun. So please try to keep it as short as possible. Two to three hours should get you to the point where you can demo it. If possible you can also
 
 
-
-
-
 # Notes
 - Vagrant runs an Ubuntu machine on 192.168.33.61 (change the IP if you've got already something going on there in the Vagrant file)
 - The project on the Ubuntu machine is located in /vagrant 
