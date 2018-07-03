@@ -27,8 +27,19 @@ We know, doing some homework is rarely fun. So please try to keep it as short as
 
 
 # Notes
-- Vagrant runs an ubuntu machine on 192.168.33.61
+- Vagrant runs an Ubuntu machine on 192.168.33.61 (change the IP if you've got already something going on there in the Vagrant file)
+- The project on the Ubuntu machine is located in /vagrant 
 - MySqL User and Password are "root"
 - Maybe you have to GRANT ALL Priviliges to root
-- To enable mysql access from outside the vm you have to edit the /etc/mysql/mysql.conf.d/mysqld.cnf by commenting "bind adress" and "skip-external-locking" out and restart the mysql service
+- To enable mysql access from outside the vm you have to edit the /etc/mysql/mysql.conf.d/mysqld.cnf by commenting "bind adress" and "skip-external-locking" out and restart the mysql service.
 You can connect then by host 192.168.33.61 root / root
+
+#Tasks to get the laravel installation running
+- run vagrant up
+- Create a database named orderbird
+- Run composer install (you've got sudo inside the machine)
+- Save the .env.example to .env
+
+#Some hints
+- You can make a quite simple auth for the admin panel by php artisan make:auth
+- Laravel comes with "mix" for frontend building - but use what you want for this
