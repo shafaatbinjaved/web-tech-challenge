@@ -11,6 +11,8 @@ Your code should be into the repository in an own branch (name like your name). 
 
 # Requirements
 - Create a website which looks like the attached obtest-* images in the root directory (must not be pixel perfect)
+![alt text](https://github.com/orderbird/web-tech-challenge/raw/master/obtest-web.png "Web-Mockup")
+
 - Create the desktop and mobile version using CSS
 - Use LESS for CSS coding
 - The form should be submitted via AJAX, displaying the error message if the entries are not valid, otherwise a success message
