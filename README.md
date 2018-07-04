@@ -35,7 +35,7 @@ We know, doing some homework is rarely fun. So please try to keep it as short as
 - To enable mysql access from outside of the vm you have to edit the /etc/mysql/mysql.conf.d/mysqld.cnf by commenting "bind address" and "skip-external-locking" out and restart the mysql service.
 You can connect then by host 192.168.33.61 root / root
 
-#Tasks to get the laravel installation running
+# Tasks to get the laravel installation running
 - Run "vagrant up" - this may take 30 minutes on the first run. You need VMWare or VirtuaBox for this. On Windows you have to enable VM support in the BIOS setup.
 - Run "vagrant ssh" to get console access the VM
 - Alter the nginx sites-enabled default config with:
