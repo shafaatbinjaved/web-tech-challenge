@@ -2,7 +2,7 @@ Welcome to the Orderbird Tech Challenge :-). Thank you for considering joining o
 
 # The Goal: get leads from potential customers
 We need a web page where potential new orderbird customers (called "leads") can leave their name, email and telephone number, this data will then be stored in a database to get in touch with them later.
-Also we need a simple admin page which is only accessible after a login. 
+Also we need a simple admin page which is only accessible after a login to review the leads that came in. 
 
 The Website should be based on the PHP framework Laravel and LESS. To get things a little easier we have created a vagrant file to create a virtual machine (Ubuntu, PHP, MySQL and Nginx) and a blank Laravel installation.
 
@@ -11,6 +11,8 @@ Your code should be into the repository in an own branch (name like your name). 
 
 # Requirements
 - Create a website which looks like the attached obtest-* images in the root directory (must not be pixel perfect)
+![alt text](https://github.com/orderbird/web-tech-challenge/raw/master/obtest-web.png "Web-Mockup")
+
 - Create the desktop and mobile version using CSS
 - Use LESS for CSS coding
 - The form should be submitted via AJAX, displaying the error message if the entries are not valid, otherwise a success message
@@ -55,3 +57,5 @@ You can connect then by host 192.168.33.61 root / root
 # Some hints
 - You can make a quite quick and simple auth for the admin panel with Artisan
 - Laravel comes with "mix" for frontend building - but you're free to use whatever you want for this
+
+# we are looking forward to your solution \o/ !!
