@@ -2,7 +2,7 @@ Welcome to the Orderbird Tech Challenge :-). Thank you for considering joining o
 
 # The Goal: get leads from potential customers
 We need a web page where potential new orderbird customers (called "leads") can leave their name, email and telephone number, this data will then be stored in a database to get in touch with them later.
-Also we need a simple admin page which is only accessible after a login. 
+Also we need a simple admin page which is only accessible after a login to review the leads that came in. 
 
 The Website should be based on the PHP framework Laravel and LESS. To get things a little easier we have created a vagrant file to create a virtual machine (Ubuntu, PHP, MySQL and Nginx) and a blank Laravel installation.
 
@@ -35,7 +35,7 @@ We know, doing some homework is rarely fun. So please try to keep it as short as
 - To enable mysql access from outside of the vm you have to edit the /etc/mysql/mysql.conf.d/mysqld.cnf by commenting "bind address" and "skip-external-locking" out and restart the mysql service.
 You can connect then by host 192.168.33.61 root / root
 
-# Tasks to get the laravel installation running
+#Tasks to get the laravel installation running
 - Run "vagrant up" - this may take 30 minutes on the first run. You need VMWare or VirtuaBox for this. On Windows you have to enable VM support in the BIOS setup.
 - Run "vagrant ssh" to get console access the VM
 - Alter the nginx sites-enabled default config with:
@@ -55,3 +55,5 @@ You can connect then by host 192.168.33.61 root / root
 # Some hints
 - You can make a quite quick and simple auth for the admin panel with Artisan
 - Laravel comes with "mix" for frontend building - but you're free to use whatever you want for this
+
+# we are looking forward to your solution \o/ !!
