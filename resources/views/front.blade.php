@@ -6,7 +6,12 @@
 @section('content')
     <div class="frontend" data-component="frontend">
         <div class="row justify-content-center">
-            <div class="col-4  heading-container">
+            <div class="col-10">
+                <h3>Orderbird Web Challenge</h3>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-4 heading-container">
                 <div class="head">Headline Example</div>
                 <div class="content">
                     A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog.
