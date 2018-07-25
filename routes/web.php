@@ -12,5 +12,17 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('front');
 });
+
+Route::put('/lead/post','LeadsController@store');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::post('/home', 'HomeController@search');
+
+Route::get('/home/sort/{column}/{direction}', 'HomeController@sort');
+
+Route::get('/home/sort/{column}/{direction}/{search}', 'HomeController@sort_and_search');
